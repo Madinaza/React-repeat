@@ -1,15 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
 // import App from './App';
-import reportWebVitals from './reportWebVitals';
-import InputExample from './components/InputExample';
+import reportWebVitals from "./reportWebVitals";
+import LifeCycle from "./components/LifeCycle";
+// import InputExample from './components/InputExample';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <InputExample />
+    {/* <InputExample /> */}
+    <LifeCycle />
   </React.StrictMode>
 );
 

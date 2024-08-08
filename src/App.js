@@ -1,10 +1,12 @@
 // import { useState } from "react";
 import "./App.css";
 // import User from "./components/User";
-import Counter from "./components/Counter";
+// import Counter from "./components/Counter";
+
 
 function App() {
-  return <Counter />;
+  return;
+ 
 
   // const [name, setName] = useState("Madina");
   // const [age, setAge] = useState(22);

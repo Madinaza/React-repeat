@@ -3,14 +3,15 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 // import App from './App';
 import reportWebVitals from "./reportWebVitals";
-import Fetch from "./components/Fetch";
+import App from "./App";
+
 // import LifeCycle from "./components/LifeCycle"
 // import InputExample from './components/InputExample';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-<Fetch />
+    <App />
     {/* <InputExample /> */}
     {/* <LifeCycle /> */}
   </React.StrictMode>

@@ -1,6 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
+import Users from "./Users";
+
 function Home() {
   return (
     <div>
@@ -39,6 +41,9 @@ function LearnRouter() {
           <li>
             <Link to="/dashboard">Dashboard</Link>
           </li>
+          <li>
+            <Link to="/users">Users</Link>
+          </li>
         </ul>
 
         <hr />
@@ -50,9 +55,11 @@ function LearnRouter() {
               <Switch> in react-router-dom v6.
             */}
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" exact element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/dashboard" element={<Dashboard />} />
+  
+          <Route path="/users" element={<Users />} />
         </Routes>
       </div>
     </Router>

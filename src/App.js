@@ -3,15 +3,14 @@ import "./App.css";
 
 // import User from "./components/User";
 // import Counter from "./components/Counter";
-import LearnRouter from "./components/LearnRouter";
-function App() {
-  return <LearnRouter />
 
+function App() {
+  return;
   // const [name, setName] = useState("Madina");
   // const [age, setAge] = useState(22);
   // const [friends, setFriends] = useState(["Ziba", "Gulnur", "Mehin"]);
   // const [adress, setAdress] = useState({ name: "krakow", zip: 30384 });
-  // return (y
+  // return (
   //   <>
   //     <div>Hello {name}</div>
   //     <div>{age}</div>

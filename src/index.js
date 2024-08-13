@@ -3,8 +3,9 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 // import App from './App';
 import reportWebVitals from "./reportWebVitals";
+import FormikBasic from "./components/FormikBasic";
 // import App from "./App";
-import LearnRouter from "./components/LearnRouter";
+// import LearnRouter from "./components/LearnRouter";
 
 // import LifeCycle from "./components/LifeCycle"
 // import InputExample from './components/InputExample';
@@ -15,11 +16,10 @@ root.render(
     {/* <App /> */}
     {/* <InputExample /> */}
     {/* <LifeCycle /> */}
-    <LearnRouter />
+    {/* <LearnRouter /> */}
+    <FormikBasic />
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+
 reportWebVitals();

@@ -1,11 +1,14 @@
 import React from "react";
 import Container from "./Container";
 import { ThemeProvider } from "./ThemeContext";
+import { UserProvider } from "./UserContext";
 function index() {
   return (
     <div>
       <ThemeProvider>
-        <Container />
+        <UserProvider>
+          <Container />
+        </UserProvider>
       </ThemeProvider>
     </div>
   );

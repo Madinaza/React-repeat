@@ -1,15 +1,16 @@
-import {useContext} from "react";
 import Button from "./Button";
-import ThemeContext from "./ThemeContext";
+import { useTheme } from "./ThemeContext";
+import Profile from "./Profile";
 
 import {} from "../style.css";
 
 function Container() {
-  const { theme } = useContext(ThemeContext);
+  const { theme } = useTheme();
 
   return (
     <div className={`container ${theme}`}>
       <Button />
+      <Profile />
     </div>
   );
 }
